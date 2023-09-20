@@ -1,0 +1,175 @@
+.heading
+{
+    
+    color: blueviolet;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 800;
+    left:30%;
+    top: 5%;
+    position: relative;
+    text-decoration: underline;
+    display: inline-flex;
+    justify-content: center;
+}
+.heading_sub{
+    color:darkmagenta;
+    font-family:cursive;
+    font-weight: bolder;
+    left:40%;
+    position: absolute;
+
+}
+.input_subject
+{
+        
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        justify-content: center;
+        border-color: black;
+
+    
+}
+.input_name
+{
+   
+    
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    border-color: black;
+    
+}
+.falseVisibility
+{
+    visibility: hidden;
+}
+.background
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDTvcOoqtoeKL8aD_PbQiJms5nf8jbskKwww&usqp=CAU);    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-self: center;
+    position:absolute;
+    height: 100%;
+    width:100%;
+    display:flex
+}
+.submit_initial
+{
+    top:80%;
+    left:45%;
+    height: 50px;
+    width:100px;
+    position: absolute;
+    color:rgb(51, 20, 20);
+    font-size: large;
+    background-color: rgb(213, 97, 140);
+    border-radius: 10px;
+}
+.background2
+{
+    background-image:url(https://as2.ftcdn.net/v2/jpg/02/68/04/27/1000_F_268042793_YSVJ4oIEifr2N83QO1Xd6i6hbX32JE4i.jpg);
+    height: 800px;
+    width: 120%;
+    background-size: 1200px 800px;
+    
+}
+.options_div
+{
+    display: flex;
+    flex: 10px;
+    flex-direction: column;
+    height: 50%;
+    width:60%;
+    flex-wrap:20px;
+    top:50%;
+    left:40%;
+    position:absolute;
+}
+/* style={{
+    height: "45px",
+    width: "20%",
+    marginTop: "200px",
+    marginLeft: "90px",
+    position: "absolute",
+    border: "2px solid grey",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    color: "black",
+    backgroundColor: optionColorOne,
+    borderRadius: "10px",
+    fontFamily: "cursive",
+    fontWeight: "bolder",
+    fontSize: "20px",
+    cursor: "pointer", */
+.options
+{
+    height: 45px;
+    width: 40%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: rgba(249, 244, 244, 0.885);
+    background-color:rgb(49, 3, 81);
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer; 
+    margin-top:20px ;
+}
+.green
+{
+    height: 45px;
+    width: 40%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: rgba(249, 244, 244, 0.885);
+    background-color:green;
+    border-radius: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer; 
+    margin-top:20px ;
+}
+.question
+{
+    height:70px;
+    width:60%;
+    top:100px;
+    left:20%;
+    position: absolute;
+    border:2px solid grey ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: rgba(249, 244, 244, 0.885);
+    background-color:rgb(49, 3, 81);
+    border-radius: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.button_submit
+{
+    height: 40px;
+    width:100px;
+    top:90%;
+    left:50%;
+    position: absolute;
+    color:rgb(239, 230, 230);
+    font-size: large;
+    font-style: italic;
+    font-weight: 900;
+    background-color: rgb(92, 29, 52);
+    border-radius: 10px;
+}

@@ -1,0 +1,133 @@
+.option3backgroundgreen
+{
+    height: 45px;
+    width:290px;
+    background-color:green ;
+    top:0px;
+    left:0px;
+    position: relative
+}
+.option3backgroundgrey
+{
+    height: 45px;
+    width:290px;
+    background-color:grey ;
+}
+.green
+{
+    background-color: green;
+}
+.red
+{
+    background-color: red;
+}
+.Modal-onLoad
+{   
+            height: 300px;
+            display: inline;
+            width: 400p;
+            border: 2px solid grey;
+            margin: 15% 30%;       
+}
+.Modal-onSave
+{
+    
+            height: 200px;
+            display: inline;
+            width: 400px;
+            border: 2px solid grey;
+            margin: auto;
+   
+}
+.Modal-onMiss
+{
+            height: 200px;
+            display: inline;
+            width: 400px;
+            border: 2px solid grey;
+            margin: 25% 50%;
+        
+}
+.card_main
+{
+   
+        height: 900px; 
+        width: 1200px;
+         margin: auto; 
+        border: 5px solid blue; 
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.card_sub_1
+{
+    
+        height: 300px;
+        width: 70%;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 10px;
+        border: 3px solid rgb(246, 9, 9);
+        display: flex;
+}
+.input_date
+{
+    height:20px;
+    width:30px;
+    justify-content: center;
+    border: 3px solid green;
+    display: flex;
+
+}
+.input_subject
+{
+   
+        height: 30px;
+        width: 50%;
+        position: relative;
+        margin-left: 0px;
+        margin-top: -500px; 
+        border: 3px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family:cursive;
+        font-weight: bolder;
+        font-size: 20px;
+         
+}
+
+.input_description
+{
+    
+        height: 150px;
+        width: 70%;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 40px;
+        border: 3px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: cursive;
+        font-weight: bolder;
+        font-size: 20px;
+}
+@media screen and (max-width: 480px) {
+    .card_sub_1
+    {
+        
+            height: 300px;
+            width: 100%;
+            justify-content: center;
+            align-content: center;
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 10px;
+            border: 3px solid rgb(246, 9, 9);
+            display: flex;
+            background-color: brown;
+    }
+  }
