@@ -26,7 +26,7 @@ function Navbar()
     )
     function GotoHome()
     {
-        navigate('/quiz_comp')
+        navigate('/Quiz_almabetter')
     }
     function GotoQuiz()
     {
