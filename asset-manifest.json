@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/quiz_comp/static/css/main.8621ab08.css",
-    "main.js": "/quiz_comp/static/js/main.1eb8fdcb.js",
-    "static/media/playquiz.jpg": "/quiz_comp/static/media/playquiz.fdd52e244221e29ac9fb.jpg",
-    "static/media/create.jpg": "/quiz_comp/static/media/create.df9c3de5fcb507defabb.jpg",
-    "static/media/show_quiz.png": "/quiz_comp/static/media/show_quiz.b6aacf4f6394da7ff571.png",
-    "index.html": "/quiz_comp/index.html",
-    "main.8621ab08.css.map": "/quiz_comp/static/css/main.8621ab08.css.map",
-    "main.1eb8fdcb.js.map": "/quiz_comp/static/js/main.1eb8fdcb.js.map"
+    "main.css": "/Quiz_almabetter/static/css/main.8621ab08.css",
+    "main.js": "/Quiz_almabetter/static/js/main.71413441.js",
+    "static/media/playquiz.jpg": "/Quiz_almabetter/static/media/playquiz.fdd52e244221e29ac9fb.jpg",
+    "static/media/create.jpg": "/Quiz_almabetter/static/media/create.df9c3de5fcb507defabb.jpg",
+    "static/media/show_quiz.png": "/Quiz_almabetter/static/media/show_quiz.b6aacf4f6394da7ff571.png",
+    "index.html": "/Quiz_almabetter/index.html",
+    "main.8621ab08.css.map": "/Quiz_almabetter/static/css/main.8621ab08.css.map",
+    "main.71413441.js.map": "/Quiz_almabetter/static/js/main.71413441.js.map"
   },
   "entrypoints": [
     "static/css/main.8621ab08.css",
-    "static/js/main.1eb8fdcb.js"
+    "static/js/main.71413441.js"
   ]
 }
